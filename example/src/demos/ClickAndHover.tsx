@@ -30,7 +30,6 @@ function Box(props: any) {
 function Box2(props: any) {
   return <primitive object={group} {...props} onClick={() => console.log('hi')} />
 }
-
 export default function App() {
   return (
     <Canvas>
